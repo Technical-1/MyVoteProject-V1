@@ -1,0 +1,217 @@
+body{
+  background-color:#D3D3D3;
+}
+.container {
+  height: 200px;
+  width:auto;
+  position: relative;
+  background:#104E8B;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #FFFFFF;
+  font-size: 9em;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.show {
+  display: block;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+#myInput {
+  box-sizing: border-box;
+  background-repeat: no-repeat;font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+#myInput:focus {
+  outline: 3px solid #ddd;
+}
+
+.politicPhoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 400px;
+}
+h2{
+  text-align: left;
+  font-size: 1.3em;
+  width: auto;
+  padding: 10px;
+  border: 5px solid black;
+  margin-left: 80px;
+  margin-right: 80px;
+  background-color:white;
+  word-wrap: break-word;
+}
+h1{
+  text-align: center;
+  padding: 1px;
+  font-size: 70px;
+}
+h3{
+  font-size: 6em;
+  padding: auto;
+}
+h4{
+  text-align: center;
+  padding: 1px;
+  font-size: 100px;
+  width: auto;
+  color: #104E8B;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 9px solid black;
+}
+h5{
+  text-align: center;
+  padding: .5px;
+  font-size: 85px;
+  width: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 3px solid black;
+}
+#MainTable {
+    border-collapse: collapse;
+    height: auto;
+
+}
+#AllCannidates{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: auto;
+    flex-flow: row wrap;
+    font: 100 16px / 16px nyt-franklin, Arial, sans-serif;
+    outline: rgb(51, 51, 51) none 0px;
+}
+#CannidateHolder {
+    height: 93px;
+    max-width: 69px;
+    text-align: center;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-size-adjust: 100%;
+    margin: 25px 40px;
+    padding: 5px;
+}
+#ImageHolder {
+    border-collapse: collapse;
+    box-shadow: rgba(0, 0, 0, 0.7) 1px 1px 5px -1px;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    width: 100px;
+    border: 2px solid #3b3b3b;
+    border-radius: 7%;
+    overflow: hidden;
+}
+#NameHolder {
+    width: 100px;
+    padding: 5px;
+    font: 20px / 13px nyt-franklin, Arial, sans-serif;
+}
+
+#CannidateImage,#Klobuchar,#Buttigieg,#Yang,#Warren,#Sanders,#Steyer,#Bloomberg,#Biden,#Bennet,#Weld,#Trump {
+    bottom: -11.375px;
+    height: 120.75px;
+    left: -11.375px;
+    position: absolute;
+    right: -11.375px;
+    top: -11.375px;
+    width: 120.75px;
+}
+
+#Klobuchar{
+  background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 50% / 100% padding-box border-box;
+}
+#Buttigieg{
+  background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 15.2174% / 100% padding-box border-box;
+}
+#Yang{
+  background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 100% / 100% padding-box border-box;
+}
+#Warren{
+  background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 93.4783% / 100% padding-box border-box;
+}
+#Steyer{
+  background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 84.7826% / 100% padding-box border-box;
+}
+#Sanders{
+  background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 76.087% / 100% padding-box border-box;
+}
+#Bloomberg{
+  background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 6.52174% / 100% padding-box border-box;
+}
+#Biden{
+  background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 4.34783% / 100% padding-box border-box;
+}
+#Weld{
+  background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 95.6522% / 100% padding-box border-box;
+}
+#Trump{
+  background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 89.1304% / 100% padding-box border-box;
+}

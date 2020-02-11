@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <div class='navbar'>
+   <a href='#home'>Home</a>
+   <a href='#policies'>Policies</a>
+   <div class='dropdown'>
+    <button onclick='myFunction()' class='dropbtn'>Candidates</button>
+    <div id='myDropdown' class='dropdown-content'>
+      <input type='text' placeholder='Search...' id='myInput' onkeyup='filterFunction()'>
+    </div>
+   </div>
+  </div>
+
+  <div class='container'>
+   <div class='center'>
+    <p>Candidates</p>
+   </div>
+  </div>
+
+  <td id="MainTable">
+  	<div id="AllCannidates">
+  		<div id="CannidateHolder"><a class="reference internal" href="#Joe-Biden"><div id="ImageHolder"><div id="Biden"></div></div></a><div id="NameHolder">Biden</div></div>
+  		<div id="CannidateHolder"><a class="reference internal" href="#Micheal-Bloomberg"><div id="ImageHolder"><div id="Bloomberg"></div></div></a><div id="NameHolder">Bloomberg</div></div>
+  		<div id="CannidateHolder"><a class="reference internal" href="#Pete-Buttigieg"><div id="ImageHolder"><div id="Buttigieg"></div></div></a><div id="NameHolder">Buttigieg</div></div>
+  		<div id="CannidateHolder"><a class="reference internal" href="#Amy-Klobuchar"><div id="ImageHolder"><div id="Klobuchar"></div></div></a><div id="NameHolder">Klobuchar</div></div>
+  		<div id="CannidateHolder"><a class="reference internal" href="#Bernie-Sanders"><div id="ImageHolder"><div id="Sanders"></div></div></a><div id="NameHolder">Sanders</div></div>
+  		<div id="CannidateHolder"><a class="reference internal" href="#Tom-Steyer"><div id="ImageHolder"><div id="Steyer"></div></div></a><div id="NameHolder">Steyer</div></div>
+      <div id="CannidateHolder"><a class="reference internal" href="#Donald-Trump"><div id="ImageHolder"><div id="Trump"></div></div></a><div id="NameHolder">Trump</div></div>
+      <div id="CannidateHolder"><a class="reference internal" href="#Elizabeth-Warren"><div id="ImageHolder"><div id="Warren"></div></div></a><div id="NameHolder">Warren</div></div>
+      <div id="CannidateHolder"><a class="reference internal" href="#Bill-Weld"><div id="ImageHolder"><div id="Weld"></div></div></a><div id="NameHolder">Weld</div></div>
+      <div id="CannidateHolder"><a class="reference internal" href="#Andrew-Yang"><div id="ImageHolder"><div id="Yang"></div></div></a><div id="NameHolder">Yang</div></div>
+  	</div>
+  </td>
+
+  <div id='CandidateHolder'></div>
+
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
