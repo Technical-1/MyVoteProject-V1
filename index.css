@@ -179,14 +179,14 @@ h5{
     font: 20px / 20px nyt-franklin, Arial, sans-serif;
 }
 
-#CandidateImage,#Klobuchar,#Buttigieg,#Yang,#Warren,#Sanders,#Steyer,#Bloomberg,#Biden,#Bennet,#Weld,#Trump {
+#CandidateImage,#Klobuchar,#Buttigieg,#Yang,#Warren,#Sanders,#Steyer,#Bloomberg,#Biden,#Bennet,#Weld,#Trump,#Local {
+    top: -11.375px;
     bottom: -11.375px;
     height: 120.75px;
+    width: 120.75px;
+    right: -11.375px;
     left: -11.375px;
     position: absolute;
-    right: -11.375px;
-    top: -11.375px;
-    width: 120.75px;
 }
 
 #Klobuchar{
@@ -218,4 +218,8 @@ h5{
 }
 #Trump{
   background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 89.1304% / 100% padding-box border-box;
+}
+
+#Local{
+  background: rgba(0, 0, 0, 0) url("./BrowardCountyLogo.png") no-repeat scroll 12px 50% / 80% padding-box border-box;);
 }
