@@ -175,8 +175,8 @@ h5{
 }
 #NameHolder {
     width: 100px;
-    padding: 10px;
-    font: 25px / 13px nyt-franklin, Arial, sans-serif;
+    padding: 5px;
+    font: 20px / 20px nyt-franklin, Arial, sans-serif;
 }
 
 #CandidateImage,#Klobuchar,#Buttigieg,#Yang,#Warren,#Sanders,#Steyer,#Bloomberg,#Biden,#Bennet,#Weld,#Trump {
