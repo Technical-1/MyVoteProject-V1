@@ -1,12 +1,12 @@
 function toggleDropdown() {
-  document.getElementById('cannidateNav').classList.toggle('show');
+  document.getElementById('candidateNav').classList.toggle('show');
 }
 
 function filterFunction() {
   var input, filter, ul, li, a, i;
   input = document.getElementById('myInput');
   filter = input.value.toUpperCase();
-  div = document.getElementById('cannidateNav');
+  div = document.getElementById('candidateNav');
   a = div.getElementsByTagName('a');
   for (i = 0; i < a.length; i++) {
     txtValue = a[i].textContent || a[i].innerText;

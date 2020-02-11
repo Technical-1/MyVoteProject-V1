@@ -144,7 +144,7 @@ h5{
     height: auto;
 
 }
-#AllCannidates{
+#AllCandidates{
     display: flex;
     margin-left: 80px;
     margin-right: 80px;
@@ -153,7 +153,7 @@ h5{
     font: 100 16px / 16px nyt-franklin, Arial, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
 }
-#CannidateHolder {
+#CandidateHolder {
     height: 93px;
     max-width: 69px;
     text-align: center;
@@ -175,11 +175,11 @@ h5{
 }
 #NameHolder {
     width: 100px;
-    padding: 5px;
-    font: 20px / 13px nyt-franklin, Arial, sans-serif;
+    padding: 10px;
+    font: 25px / 13px nyt-franklin, Arial, sans-serif;
 }
 
-#CannidateImage,#Klobuchar,#Buttigieg,#Yang,#Warren,#Sanders,#Steyer,#Bloomberg,#Biden,#Bennet,#Weld,#Trump {
+#CandidateImage,#Klobuchar,#Buttigieg,#Yang,#Warren,#Sanders,#Steyer,#Bloomberg,#Biden,#Bennet,#Weld,#Trump {
     bottom: -11.375px;
     height: 120.75px;
     left: -11.375px;
