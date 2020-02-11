@@ -4,7 +4,7 @@ function toggleDropdown() {
 
 function filterFunction() {
   var input, filter, ul, li, a, i;
-  input = document.getElementById('myInput');
+  input = document.getElementById('allCandidates');
   filter = input.value.toUpperCase();
   div = document.getElementById('candidateNav');
   a = div.getElementsByTagName('a');

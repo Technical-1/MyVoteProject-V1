@@ -82,14 +82,14 @@ html,body{
   border: none;
   cursor: pointer;
 }
-#myInput {
+#allCandidates {
   box-sizing: border-box;
   background-repeat: no-repeat;font-size: 16px;
   padding: 12px;
   border: none;
   border-bottom: 1px solid #ddd;
 }
-#myInput:focus {
+#allCandidates:focus {
   outline: 3px solid #ddd;
 }
 
@@ -144,7 +144,7 @@ h5{
     height: auto;
 
 }
-#AllCandidates{
+#AllCandidate{
     display: flex;
     margin-left: 80px;
     margin-right: 80px;
