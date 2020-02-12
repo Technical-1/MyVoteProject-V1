@@ -252,13 +252,13 @@ h5{
   background-size: contain;
 }
 
-#SeeMore, #SeeMore2, #SeeMore3, #SeeMore4, #SeeMore5{
+#SeeMore, #SeeMore2, #SeeMore3, #SeeMore4, #SeeMore5, #SeeMore6, #SeeMore7{
   background-color:#104E8B;
   width: 9em;
   height: 2em;
   font-size: 1.3em;
 }
-#more, #more2, #more3, #more4, #more5 {
+#more, #more2, #more3, #more4, #more5, #more6, #more7 {
   display: none;
 }
 #test{
