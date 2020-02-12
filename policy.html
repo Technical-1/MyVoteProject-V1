@@ -11,8 +11,8 @@
      <button onclick='toggleDropdown()' class='dropbtn'>Policies</button>
      <div id='searchBox' class='dropdown-content'>
       <input type="text" placeholder="Search..." id="content" onkeyup="filterFunction()">
-        <a href="#Joe-Biden" onclick='toggleDropdown()'>Joe Biden</a>
-        <a href="#Micheal-Bloomberg" onclick='toggleDropdown()'>Micheal Bloomberg</a>
+        <a href="#Background-Checks" onclick='toggleDropdown()'>Background Checks</a>
+        <a href="#Ban-on-Assault-Weapons" onclick='toggleDropdown()'>Ban on Assault Weapons/Ammunition Cap</a>
       </div>
     </div>
   </div>
@@ -20,7 +20,7 @@
   <div class='container'>Policies</div>
   <h4><center>Gun Safety Policies</center></h4>
 
-  <h1><center>Background Checks</center></h1>
+  <h1 id="Background-Checks"><center>Background Checks</center></h1>
   <h2>Description: <br>
     <p id="text">A background check is a procedure used to determine whether or not an individual is eligible to buy a firearm
       <span id="dots">...</span>
@@ -105,7 +105,7 @@
   </tbody>
 </table>
 
-<h1><center>Ban on Assault Weapons/Ammunition Cap</center></h1>
+<h1 id="Ban-on-Assault-Weapons"><center>Ban on Assault Weapons/Ammunition Cap</center></h1>
 <h2>Description: <br>
   <p id="text">An assault weapons ban is a law that prohibits the civilian possession, manufacture, or transfer of assault weapons.
     <span id="dots8">...</span>
@@ -153,21 +153,17 @@
         <span id="dots11">...</span>
         <span id="more11"><br><br> • Mass-shooting fatalities were 70% less likely to occur during the years of the federal assault weapons ban of 1994 to 2004. <a href="https://www.ncbi.nlm.nih.gov/pubmed/30188421">ncbi.nlm.nih.gov/pubmed/30188421</a>
                               <br> • State-level bans also reduce mass shooting fatalities. <a href="https://www.researchgate.net/publication/271939348_The_impact_of_state_and_federal_assault_weapons_bans_on_public_mass_shootings">researchgate.net/publication/271939348_The_impact_of_state_and_federal_assault_weapons_bans_on_public_mass_shootings</a>
+                              <br> • In the decade after the ban, there was a 347 percent increase in fatalities in gun massacres, even as overall violent crime continued downward. <a href="https://www.nytimes.com/2019/09/04/opinion/assault-weapon-ban.html">nytimes.com/2019/09/04/opinion/assault-weapon-ban.html</a>
         </span>
+
       </p><button onclick="readMore('dots11','more11','SeeMore11')" id="SeeMore11">Read more</button>
     </td>
 
-    <td><p id="text">Background checks should not be expanded
+    <td><p id="text">The results produced by the 1994 ban were inconclusive/nonexistent
       <span id="dots12">...</span>
-      <span id="more12"><br><br>Groups such as the National Rifle Association (NRA) oppose the expansion of background checks.
-                           <br>Main arguments
-                           <br>Existing law is sufficient -
-                           <br> • Federal law prohibits transferring a firearm to anyone known or believed to be prohibited from possessing firearms. (18 USC992(d))
-                           <br> • Federal law prohibits a non-licensee from acquiring a handgun outside his state of residence and prohibits a non-licensee from acquiring a rifle or shotgun from a non-licensee outside his state of residence. (18 USC 992(a)(3))
-                           <br> • Federal law prohibits anyone from transferring a handgun to a non-licensee who resides in another state (with rare exceptions), and prohibits a non-licensee from transferring any firearm to a non-licensee who resides in another state. (18 USC 922(a)(5))
-                           <br> • Federal law prohibits the acquisition of a firearm on behalf of a person who is prohibited from possessing firearms. (18 USC 922(h) and 922(a)(6))
-                           <br> • Federal law prohibits anyone from providing a handgun to a juvenile (person under age 18), and prohibits juveniles from possessing handguns, with limited exceptions. (18 USC 922(x))
-                           <br> • Federal law also prohibits dealers from selling rifles or shotguns to persons under age 18. (18 USC 922(b)(1))
+      <span id="more12"><br><br> • “At best, the assault weapons ban can have only a limited effect on total gun murders, because the banned weapons and magazines were never involved in more than a modest fraction of all gun murders.<a href="https://www.urban.org/research/publication/impact-evaluation-public-safety-and-recreational-firearms-use-protection-act-1994/view/full_report">urban.org/research/publication/impact-evaluation-public-safety-and-recreational-firearms-use-protection-act-1994/view/full_report</a>
+                          <br> • “the ban’s effects on gun violence are likely to be small at best and perhaps too small for reliable measurement.” Updated Dept of Justice study on the ban <a href="https://www.ncjrs.gov/pdffiles1/nij/grants/204431.pdf">ncjrs.gov/pdffiles1/nij/grants/204431.pdf</a>
+
       </span>
     </p><button onclick="readMore('dots12','more12','SeeMore12')" id="SeeMore12">Read more</button>
     <p id="text">Background checks are ineffective at keeping guns away from criminals

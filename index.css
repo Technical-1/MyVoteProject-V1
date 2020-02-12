@@ -273,6 +273,7 @@ table.table {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  word-wrap: break-word;
   background-color:white;
 }
 table.table td, table.table th {
@@ -283,6 +284,7 @@ table.table tbody td {
   padding: 1em;
   font-size: 1.5em;
   text-align: center;
+  word-wrap: break-word;
 }
 table.table thead th {
   padding: .5em;
