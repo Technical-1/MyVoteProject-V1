@@ -90,11 +90,10 @@ html,body{
   outline: 3px solid #ddd;
 }
 
-
 h1{
   text-align: center;
-  padding: 1px;
   font-size: 70px;
+  padding: 2px;
 }
 h2{
   text-align: left;
@@ -219,37 +218,37 @@ h5{
   background: rgba(0, 0, 0, 0) url("./BrowardCountyLogo.png") no-repeat scroll 12px 50% / 80% padding-box border-box;);
 }
 
-
-<input type="button" class="enjoy-css" value="Share Your Voice" />
 .enjoy-css {
-  float: left;
-  margin-left: 5%;
-  display: inline-block;
+  position: fixed;
+  top: 60px;
+  z-index:99;
+  float: right;
+  right: 3%;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  width: 4em;
-  height: 1.7em;
+  width: 100px;
+  height: 50px;
   cursor: pointer;
-  padding: 6em 1em 1em;
+  padding: 90px 0 24.5px;
   border: 4px solid #104E8B;
   -webkit-border-radius: 8px;
   border-radius: 8px;
-  font: normal normal bold 1.4em/.9em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font: normal normal bold 20px/normal "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #104E8B;
   text-align: center;
   -o-text-overflow: clip;
   text-overflow: clip;
-  white-space: pre-line;
-  background: url("https://enjoycss.com/bg-img/custom/90782-145fbuw.igb1.png");
+  white-space: pre-wrap;
+  background: url("https://enjoycss.com/bg-img/custom/84764-crm2pk.47u4c.png"), rgb(255,255,255);
   background-repeat: no-repeat;
-  background-position: 50% -61%;
+  background-position: 50% 5%;
   -webkit-background-origin: padding-box;
   background-origin: padding-box;
   -webkit-background-clip: border-box;
   background-clip: border-box;
-  -webkit-background-size: contain;
-  background-size: contain;
+  -webkit-background-size: 84% auto;
+  background-size: 84% auto;
 }
 
 #SeeMore, #SeeMore2, #SeeMore3, #SeeMore4, #SeeMore5, #SeeMore6, #SeeMore7, #SeeMore8, #SeeMore9, #SeeMore10, #SeeMore11, #SeeMore12, #SeeMore13, #SeeMore14{
@@ -311,8 +310,7 @@ table.table thead th {
     background-color: #104E8B;
     padding: .5px;
     border-radius: 5px;
-
-    }
+}
 #scroll2TopupButton:hover {
   background-color: #7dbbf1;
 }
