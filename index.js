@@ -23,13 +23,12 @@ function readMore(dotNum, moreNum, seeMoreNum) {
   var moreText = document.getElementById(moreNum);
   var btnText = document.getElementById(seeMoreNum);
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
+  if (btnText.innerHTML === "Read less") {
     btnText.innerHTML = "Read more";
     moreText.style.display = "none";
   } else {
-    dots.style.display = "none";
     btnText.innerHTML = "Read less";
     moreText.style.display = "inline";
+    moreText.style.fontSize = "20px";
   }
 }

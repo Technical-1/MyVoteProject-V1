@@ -254,9 +254,10 @@ h5{
 
 #SeeMore, #SeeMore2, #SeeMore3, #SeeMore4, #SeeMore5, #SeeMore6, #SeeMore7, #SeeMore8, #SeeMore9, #SeeMore10, #SeeMore11, #SeeMore12, #SeeMore13, #SeeMore14{
   background-color:#104E8B;
-  width: 9em;
-  height: 2em;
-  font-size: 1.3em;
+  width: auto;
+  height: auto;
+  font-size: 1em;
+  color:white;
 }
 #more, #more2, #more3, #more4, #more5, #more6, #more7, #more8, #more9, #more10, #more11, #more12, #more13, #more14 {
   display: none;
@@ -278,10 +279,9 @@ table.table {
 }
 table.table td, table.table th {
   border: 5px solid black;
-  padding: auto auto;
 }
 table.table tbody td {
-  padding: 1em;
+  padding: .4em;
   font-size: 1.5em;
   text-align: center;
   word-wrap: break-word;
@@ -304,17 +304,20 @@ table.table thead th {
     right: .7%;
     padding: .5em;
     up: 20%;
-    max-width: 8em;
-    width: 100%;
-    height: 2em;
-    font-size: 15px;
+    width: auto;
+    height: auto;
+    font-size: 3em;
     border-color: #000000;
     background-color: #104E8B;
     padding: .5px;
     border-radius: 5px;
 
     }
-/*On Hover Color Change*/
 #scroll2TopupButton:hover {
   background-color: #7dbbf1;
+}
+#bulletPoints{
+  font-size: 1.5em;
+  word-wrap: break-word;
+  font-weight: bold;
 }
