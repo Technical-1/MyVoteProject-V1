@@ -17,7 +17,6 @@ function filterFunction() {
     }
   }
 }
-
 function readMore(dotNum, moreNum, seeMoreNum) {
   var dots = document.getElementById(dotNum);
   var moreText = document.getElementById(moreNum);
@@ -31,4 +30,17 @@ function readMore(dotNum, moreNum, seeMoreNum) {
     moreText.style.display = "inline";
     moreText.style.fontSize = "20px";
   }
+}
+
+function toggleShare() {
+  var x = document.getElementById("shareYourVoice");
+  var y = document.getElementById("share");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    x.reset();
+  }
+  return false;
 }

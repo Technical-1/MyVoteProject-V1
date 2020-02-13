@@ -89,6 +89,25 @@ html,body{
 #content:focus {
   outline: 3px solid #ddd;
 }
+#hold{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#shareYourVoice{
+  text-align: center;
+  top:20%;
+  font-size: 1.5em;
+  width: 500px;
+  height: auto;
+  position:fixed;
+  z-index: 100;
+  border: 5px solid black;
+  background-color:white;
+  word-wrap: break-word;
+}
 
 h1{
   text-align: center;
@@ -218,7 +237,7 @@ h5{
   background: rgba(0, 0, 0, 0) url("./BrowardCountyLogo.png") no-repeat scroll 12px 50% / 80% padding-box border-box;);
 }
 
-.enjoy-css {
+#share {
   position: fixed;
   top: 60px;
   z-index:99;

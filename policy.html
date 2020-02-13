@@ -4,7 +4,27 @@
 </head>
 
 <body>
-  <input type="button" class="enjoy-css" value="Share Your Voice" />
+  <button id="share" onclick='toggleShare()'>Share Your Voice</button>
+  <div id=hold>
+  <div id="shareYourVoice" style="display: none;">
+    <form method="post" onsubmit="return toggleShare()" novalidate>
+      <p>Do you agree or disagree with <strong>background checks?</strong></p>
+      <input type="radio" id="agree" name="q1" value="agree">
+      <label for="agree">Agree</label>
+      <input type="radio" id="disagree" name="q1" value="disagree">
+      <label for="disagree">Disagree</label>
+      <br>
+      <p>Do you agree or disagree with a <strong>ban on assault weapons or an ammunition cap?</strong></p>
+      <input type="radio" id="agree2" name="q2" value="agree">
+      <label for="agree">Agree</label>
+      <input type="radio" id="disagree2" name="q2"value="disagree">
+      <label for="disagree">Disagree</label>
+      <br><br>
+      <input type="submit">
+    </form>
+</div>
+</div>
+
   <div class='navbar'>
    <a href='#home'>Home</a>
    <a href='index.html'>Candidates</a>
