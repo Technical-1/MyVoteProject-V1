@@ -72,6 +72,7 @@ html,body{
     height: 900px;
     background-size: cover;
     background-repeat: no-repeat;
+    border-bottom: 5px solid black;
 }
 .hero,.hero .hero-content {
     display: -webkit-box;
