@@ -5,22 +5,36 @@
 
 <body>
   <button id="share" onclick='toggleShare()'>Share Your Voice</button>
-  <button id="stance" onclick='toggleStance()'>Candidates Stance</button>
 
   <div id=hold>
-    <div id="candidatesStance" style="display: none;">
-      <p><strong>Where do your candidates line up?</strong></p>
-      <p><a href="candidates.html#Joe-Biden">Joe Biden</a></p>
-      <p><a href="candidates.html#Micheal-Bloomberg">Micheal Bloomberg</a></p>
-      <p><a href="candidates.html#Pete-Buttigieg">Pete Buttigieg</a></p>
-      <p><a href="candidates.html#Amy-Klobuchar">Amy Klobuchar</a></p>
-      <p><a href="candidates.html#Bernie-Sanders">Bernie Sanders</a></p>
-      <p><a href="candidates.html#Tom-Steyer">Tom Steyer</a></p>
-      <p><a href="candidates.html#Donald-Trump">Donald Trump</a></p>
-      <p><a href="candidates.html#Elizabeth-Warren">Elizabeth Warren</a></p>
-      <p><a href="candidates.html#Bill-Weld">Bill Weld</a></p>
-      <p><a href="candidates.html#Andrew-Yang">Andrew Yang</a></p>
-      <button id="submitbtn" onclick='toggleStance()'>Close</button>
+    <div id="backgroundStances" style="display: none;">
+      <p><strong>Where do your candidates line up<br>on background checks?<br>(<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"> = Supports)<br>(<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-down-sign_1f44e.png"width="30" height="auto"> = Doesn't Support)</strong></p>
+      <p><a href="candidates.html#Joe-Biden">Joe Biden</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Micheal-Bloomberg">Micheal Bloomberg</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Pete-Buttigieg">Pete Buttigieg</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Amy-Klobuchar">Amy Klobuchar</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Bernie-Sanders">Bernie Sanders</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Tom-Steyer">Tom Steyer</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Donald-Trump">Donald Trump</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Elizabeth-Warren">Elizabeth Warren</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Bill-Weld">Bill Weld</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <button id="submitbtn" onclick='toggleBackground()'>Close</button>
+    </div>
+  </div>
+
+  <div id=hold>
+    <div id="banStance" style="display: none;">
+      <p><strong>Where do your candidates line up<br>on background checks?<br>(<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"> = Supports)<br>(<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-down-sign_1f44e.png"width="30" height="auto"> = Doesn't Support)</strong></p>
+      <p><a href="candidates.html#Joe-Biden">Joe Biden</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Micheal-Bloomberg">Micheal Bloomberg</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Pete-Buttigieg">Pete Buttigieg</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Amy-Klobuchar">Amy Klobuchar</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Bernie-Sanders">Bernie Sanders</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Tom-Steyer">Tom Steyer</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Donald-Trump">Donald Trump</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Elizabeth-Warren">Elizabeth Warren</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <p><a href="candidates.html#Bill-Weld">Bill Weld</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
+      <button id="submitbtn" onclick='toggleBan()'>Close</button>
     </div>
   </div>
 
@@ -60,8 +74,10 @@
   <div class='container'>Policies</div>
   <h4><center>Gun Safety Policies</center></h4>
 
-
-  <h1 id="Background-Checks">Background Checks</h1>
+  <div id="hold">
+    <button onclick="toggleBackground()" id="backgroundStanceBtn">Candidates Stance</button>
+    <h1 id="Background-Checks">Background Checks</h1>
+  </div>
   <h2>Description: <br>
     <p id="bulletPoints">A background check is a procedure used to determine whether or not an individual is eligible to buy a firearm
       <span id="more"><br> <br> • Under current law, if a person who is not a federally licensed gun dealer wants to purchase a gun from a federally licensed gun dealer, they must first complete a background check.
@@ -143,8 +159,10 @@
   </tbody>
 </table>
 
-
-<h1 id="Ban-on-Assault-Weapons"><center>Ban on Assault Weapons/Ammunition Cap</center></h1>
+<div id="hold">
+  <button onclick="toggleBan()" id="stanceOnBan">Candidates Stance</button>
+  <h1 id="Ban-on-Assault-Weapons">Ban on Assault Weapons/Ammunition Cap</h1>
+</div>
 <h2>Description: <br>
   <p id="bulletPoints">An assault weapons ban is a law that prohibits the civilian possession, manufacture, or transfer of assault weapons.
     <span id="more8"><br> <br> • In 1994, Congress passed the Public Safety and Recreational Firearms Use Protection Act, which included an assault weapons ban.

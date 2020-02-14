@@ -45,9 +45,20 @@ function toggleShare() {
   return false;
 }
 
-function toggleStance() {
-  var x = document.getElementById("candidatesStance");
-  var y = document.getElementById("stance");
+function toggleBackground() {
+  var x = document.getElementById("backgroundStances");
+  var y = document.getElementById("backgroundStanceBtn");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "inline";
+  }
+}
+function toggleBan() {
+  var x = document.getElementById("banStance");
+  var y = document.getElementById("stanceOnBan");
   if (x.style.display === "none") {
     x.style.display = "inline-block";
     y.style.display = "none";
