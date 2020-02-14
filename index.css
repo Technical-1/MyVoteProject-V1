@@ -3,7 +3,7 @@ html,body{
    margin: 0px;
    padding: 0px;
    overflow-x: hidden;
-   background-color:white;
+   background-color:#FBFCFC;
 }
 .container {
   height: 200px;
@@ -131,10 +131,10 @@ h2{
   font-size: 1.5em;
   width: auto;
   padding: 10px;
-  border: 5px solid black;
+  border: 3px solid black;
   margin-left: 80px;
   margin-right: 80px;
-  background-color:white;
+  background-color:#F1F1F1;
   word-wrap: break-word;
 }
 h3{
@@ -333,7 +333,7 @@ table.table {
   margin-right: auto;
   text-align: left;
   word-wrap: break-word;
-  background-color:white;
+  background-color:#F1F1F1;
 }
 table.table td, table.table th {
   border: 5px solid black;
@@ -351,6 +351,7 @@ table.table thead th {
   border-bottom: 2px solid #444444;
   font-weight: bold;
   color: black;
+  background-color:#F1F1F1;
   text-align: center;
   border: 5px solid black;
 }

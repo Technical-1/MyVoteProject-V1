@@ -104,7 +104,23 @@ html,body{
 
 .hero .hero-content .hero-subtitle {
     font-family: proxima-soft,sans-serif;
-    font-size: 2em;
+    font-size: 10em;
     font-style: italic;
     color: #fff
+}
+#downAarrow {
+    position:absolute;
+    bottom: 10px;
+    float: right;
+    right: 50%;
+    padding: .5em;
+    up: 20%;
+    width: auto;
+    height: auto;
+    font-size: 2.3em;
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Red_Arrow_Down.svg/1024px-Red_Arrow_Down.svg.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    border-radius: 5px;
 }
