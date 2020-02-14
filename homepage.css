@@ -4,8 +4,6 @@ html,body{
    padding: 0px;
    overflow-x: hidden;
    background-color: white;
-   background-repeat:no-repeat;
-   background-size: cover;
 }
 .navbar {
   overflow: hidden;
@@ -68,4 +66,44 @@ html,body{
   font-size: 16px;
   border: none;
   cursor: pointer;
+}
+
+.hero {
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero,.hero .hero-content {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center
+}
+
+.hero .hero-content {
+    border-radius: 5px;
+    background: rgba(0,0,0,.6);
+    padding: 2rem;
+    text-align: center;
+    max-width: 550px;
+}
+
+.hero .hero-content .hero-title {
+    font-size: 10em;
+    color: #fff;
+    margin:10px;
+    width:auto;
+    height:auto;
+}
+
+.hero .hero-content .hero-subtitle {
+    font-family: proxima-soft,sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    color: #fff
 }
