@@ -15,7 +15,6 @@ html,body{
   color: #FFFFFF;
   text-align: center;
 }
-
 .navbar {
   overflow: hidden;
   z-index: auto 20;
@@ -91,10 +90,10 @@ html,body{
 }
 #hold{
   display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 #shareYourVoice{
   text-align: center;
@@ -108,23 +107,43 @@ html,body{
   background-color:white;
   word-wrap: break-word;
 }
-#candidatesStance{
+#backgroundStances{
   text-align: center;
-  top:20%;
   font-size: 1.5em;
   width: 500px;
+  top:900px;
   height: auto;
-  position:fixed;
+  position:absolute;
   z-index: 100;
   border: 5px solid black;
   background-color:white;
   word-wrap: break-word;
 }
-
+#banStance{
+  text-align: center;
+  font-size: 1.5em;
+  width: 500px;
+  top:1900px;
+  height: auto;
+  position:absolute;
+  z-index: 100;
+  border: 5px solid black;
+  background-color:white;
+  word-wrap: break-word;
+}
 h1{
   text-align: center;
   font-size: 70px;
   padding: 2px;
+}
+.othertitles{
+  text-align: center;
+  font-size: 70px;
+  padding: 2px;
+  margin: 0px;
+  width:65%;
+  font-weight: bold;
+  display: inline;
 }
 h2{
   text-align: left;
@@ -281,12 +300,8 @@ h5{
   -webkit-background-size: 84% auto;
   background-size: 84% auto;
 }
-#stance{
-  position: fixed;
-  top: 70px;
+#backgroundStanceBtn,#stanceOnBan{
   z-index:99;
-  float: right;
-  left: 3%;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
