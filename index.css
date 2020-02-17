@@ -225,7 +225,7 @@ h5{
     padding: 5px;
     font: 20px / 20px nyt-franklin, Arial, sans-serif;
 }
-#CandidateImage,#Klobuchar,#Buttigieg,#Yang,#Warren,#Sanders,#Steyer,#Bloomberg,#Biden,#Bennet,#Weld,#Trump,#Local {
+#CandidateImage,#Klobuchar,#Buttigieg,#Gabbard,#Warren,#Sanders,#Steyer,#Bloomberg,#Biden,#Bennet,#Weld,#Trump,#Local {
     top: -11.375px;
     bottom: -11.375px;
     height: 120.75px;
@@ -240,8 +240,8 @@ h5{
 #Buttigieg{
   background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 15.2174% / 100% padding-box border-box;
 }
-#Yang{
-  background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 100% / 100% padding-box border-box;
+#Gabbard{
+  background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0PX 28.2608% / 100% padding-box border-box;
 }
 #Warren{
   background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 93.4783% / 100% padding-box border-box;
