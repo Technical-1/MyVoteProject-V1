@@ -63,3 +63,20 @@ html,body{
   text-align: center;
   padding: 20px;
 }
+footer {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(151, 151, 151);
+  text-align: center;
+  text-decoration: none solid rgb(151, 151, 151);
+  width: auto;
+  font: 15px / 13.8px sans-serif;
+  padding: .5em;
+}

@@ -248,7 +248,7 @@ h5{
     padding: 5px;
     font: 20px / 20px Arial;
 }
-#CandidateImage,#Klobuchar,#Buttigieg,#Gabbard,#Warren,#Sanders,#Steyer,#Bloomberg,#Biden,#Bennet,#Weld,#Trump,#Local {
+#CandidateImage,#Klobuchar,#Buttigieg,#Gabbard,#Warren,#Sanders,#Steyer,#Bloomberg,#Biden,#Bennet,#Weld,#Trump {
     top: -11.375px;
     bottom: -11.375px;
     height: 120.75px;
@@ -286,9 +286,6 @@ h5{
 }
 #Trump{
   background: rgba(0, 0, 0, 0) url("https://static01.nyt.com/newsgraphics/2019/01/08/candidate-tracker/5aae93c4f451c32f13cce506d3e00585e8328920/all.png") no-repeat scroll 0px 89.1304% / 100% padding-box border-box;
-}
-#Local{
-  background: rgba(0, 0, 0, 0) url("./BrowardCountyLogo.png") no-repeat scroll 12px 50% / 80% padding-box border-box;);
 }
 
 #share {
@@ -425,4 +422,21 @@ table.table thead th {
   font-size: 1.5em;
   word-wrap: break-word;
   font-weight: bold;
+}
+footer {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(151, 151, 151);
+  text-align: center;
+  text-decoration: none solid rgb(151, 151, 151);
+  width: auto;
+  font: 15px / 13.8px sans-serif;
+  padding: .5em;
 }
