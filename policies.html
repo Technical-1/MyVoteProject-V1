@@ -18,7 +18,7 @@
       <p><a href="candidates.html#Donald-Trump">Donald Trump</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
       <p><a href="candidates.html#Elizabeth-Warren">Elizabeth Warren</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
       <p><a href="candidates.html#Bill-Weld">Bill Weld</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
-      <button id="submitbtn" onclick='toggleBackground()'>Close</button>
+      <button id="submitbtn" onclick="toggleButton('backgroundStances','backgroundStanceBtn')">Close</button>
     </div>
   </div>
 
@@ -34,7 +34,7 @@
       <p><a href="candidates.html#Donald-Trump">Donald Trump</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-down-sign_1f44e.png"width="30" height="auto"></p>
       <p><a href="candidates.html#Elizabeth-Warren">Elizabeth Warren</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
       <p><a href="candidates.html#Bill-Weld">Bill Weld</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-down-sign_1f44e.png"width="30" height="auto"></p>
-      <button id="submitbtn" onclick='toggleBan()'>Close</button>
+      <button id="submitbtn" onclick="toggleButton('banStance','stanceOnBan')">Close</button>
     </div>
   </div>
   <div id=hold>
@@ -49,7 +49,7 @@
       <p><a href="candidates.html#Donald-Trump">Donald Trump</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-down-sign_1f44e.png"width="30" height="auto"></p>
       <p><a href="candidates.html#Elizabeth-Warren">Elizabeth Warren</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
       <p><a href="candidates.html#Bill-Weld">Bill Weld</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-down-sign_1f44e.png"width="30" height="auto"></p>
-      <button id="submitbtn" onclick='toggleFlags()'>Close</button>
+      <button id="submitbtn" onclick="toggleButton('flagsStance','stanceOnFlags')">Close</button>
     </div>
   </div>
   <div id=hold>
@@ -64,7 +64,7 @@
       <p><a href="candidates.html#Donald-Trump">Donald Trump</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-down-sign_1f44e.png"width="30" height="auto"></p>
       <p><a href="candidates.html#Elizabeth-Warren">Elizabeth Warren</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-up-sign_1f44d.png"width="30" height="auto"></p>
       <p><a href="candidates.html#Bill-Weld">Bill Weld</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/thumbs-down-sign_1f44e.png"width="30" height="auto"></p>
-      <button id="submitbtn" onclick='toggleImmunity()'>Close</button>
+      <button id="submitbtn" onclick="toggleButton('immunityStance','stanceOnImmunity')">Close</button>
     </div>
   </div>
   <div id=hold>
@@ -116,9 +116,8 @@
 
   <div class='container'>Policies</div>
   <h4><center>Gun Safety Policies</center></h4>
-
   <div id="hold">
-    <button onclick="toggleBackground()" id="backgroundStanceBtn">Candidates Stance</button>
+    <button onclick="toggleButton('backgroundStances','backgroundStanceBtn')" id="backgroundStanceBtn">Candidates Stance</button>
     <div class="othertitles" id="Background-Checks">Background Checks</div>
   </div>
   <h2>Description: <br>
@@ -205,7 +204,7 @@
 <br><br><br><br><br><br>
 
 <div id="hold">
-  <button onclick="toggleBan()" id="stanceOnBan">Candidates Stance</button>
+  <button onclick="toggleButton('banStance','stanceOnBan')" id="stanceOnBan">Candidates Stance</button>
   <div class="othertitles" id="Ban-on-Assault-Weapons">Ban on Assault Weapons/Ammunition Cap</div>
 </div>
 <h2>Description: <br>
@@ -283,7 +282,7 @@
 <br><br><br><br><br><br>
 
 <div id="hold">
-  <button onclick="toggleFlags()" id="stanceOnFlags">Candidates Stance</button>
+  <button onclick="toggleButton('flagsStance','stanceOnFlags')" id="stanceOnFlags">Candidates Stance</button>
   <div class="othertitles" id="Red-Flag-Laws">Red Flag Laws</div>
 </div>
 <h2>Description: <br>
@@ -368,7 +367,7 @@
 <br><br><br><br><br><br>
 
 <div id="hold">
-  <button onclick="toggleImmunity()" id="stanceOnImmunity">Candidates Stance</button>
+  <button onclick="toggleButton('immunityStance','stanceOnImmunity')" id="stanceOnImmunity">Candidates Stance</button>
   <div class="othertitles" id="Immunity-For-Manufacturers">Protection of Lawful Commerce in Arms Act (PLCAA) - legal immunity for gun manufacturers</div>
 </div>
 <h2>Description: <br>

@@ -7,9 +7,8 @@ html,body{
 }
 .navbar {
   overflow: hidden;
-  z-index: auto 20;
   background-color: #333;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
 }
 .navbar a {
   float: left;
@@ -18,54 +17,8 @@ html,body{
   padding: 14px 16px;
   text-decoration: none;
 }
-.dropdown {
-  float: left;
-  overflow: hidden;
-  width:auto;
-}
-.dropdown .dropbtn {
-  cursor: pointer;
-  font-size: 2em;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+.navbar a:hover {
   background-color: #104E8B;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  z-index:1;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-.show {
-  display: block;
-}
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
 }
 
 .titleBox {
@@ -103,9 +56,10 @@ html,body{
   height: 200px;
   width:auto;
   height:auto;
-  font-size: 9em;
+  font-size: 3em;
   position: relative;
-  background:#104E8B;
+  background: rgba(177,71,65);
   color: #FFFFFF;
   text-align: center;
+  padding: 20px;
 }

@@ -1,7 +1,6 @@
 function toggleDropdown() {
   document.getElementById('searchBox').classList.toggle('show');
 }
-
 function filterFunction() {
   var input, filter, ul, li, a, i;
   input = document.getElementById('content');
@@ -31,7 +30,6 @@ function readMore(dotNum, moreNum, seeMoreNum) {
     moreText.style.fontSize = "20px";
   }
 }
-
 function toggleShare() {
   var x = document.getElementById("shareYourVoice");
   var y = document.getElementById("share");
@@ -44,43 +42,9 @@ function toggleShare() {
   }
   return false;
 }
-
-function toggleBackground() {
-  var x = document.getElementById("backgroundStances");
-  var y = document.getElementById("backgroundStanceBtn");
-  if (x.style.display === "none") {
-    x.style.display = "inline-block";
-    y.style.display = "none";
-  } else {
-    x.style.display = "none";
-    y.style.display = "inline";
-  }
-}
-function toggleBan() {
-  var x = document.getElementById("banStance");
-  var y = document.getElementById("stanceOnBan");
-  if (x.style.display === "none") {
-    x.style.display = "inline-block";
-    y.style.display = "none";
-  } else {
-    x.style.display = "none";
-    y.style.display = "inline";
-  }
-}
-function toggleFlags() {
-  var x = document.getElementById("flagsStance");
-  var y = document.getElementById("stanceOnFlags");
-  if (x.style.display === "none") {
-    x.style.display = "inline-block";
-    y.style.display = "none";
-  } else {
-    x.style.display = "none";
-    y.style.display = "inline";
-  }
-}
-function toggleImmunity() {
-  var x = document.getElementById("immunityStance");
-  var y = document.getElementById("stanceOnImmunity");
+function toggleButton(stanceInfo, stanceBtn) {
+  var x = document.getElementById(stanceInfo);
+  var y = document.getElementById(stanceBtn);
   if (x.style.display === "none") {
     x.style.display = "inline-block";
     y.style.display = "none";
