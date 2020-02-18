@@ -68,13 +68,12 @@ html,body{
   cursor: pointer;
 }
 
-.hero {
+.titleBox {
     height: 900px;
+    background-image: url('./votingPeople.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    border-bottom: 5px solid black;
-}
-.hero,.hero .hero-content {
+    border-bottom: 2px solid black;
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -83,18 +82,16 @@ html,body{
     -webkit-box-pack: center;
     justify-content: center;
     -webkit-box-align: center;
-    align-items: center
+    align-items: center;
 }
-
-.hero .hero-content {
-    border-radius: 5px;
-    background: rgba(0,0,0,.6);
-    padding: 2rem;
+.titleBoxContent {
+    border-radius: 7px;
+    background: rgba(0,0,0,.7);
+    padding: 2.5em;
     text-align: center;
     max-width: 550px;
 }
-
-.hero .hero-content .hero-title {
+.titleBoxTitle {
     font-size: 10em;
     color: #fff;
     margin:10px;
@@ -102,9 +99,13 @@ html,body{
     height:auto;
 }
 
-.hero .hero-content .hero-subtitle {
-    font-family: proxima-soft,sans-serif;
-    font-size: 10em;
-    font-style: italic;
-    color: #fff
+.container {
+  height: 200px;
+  width:auto;
+  height:auto;
+  font-size: 9em;
+  position: relative;
+  background:#104E8B;
+  color: #FFFFFF;
+  text-align: center;
 }
