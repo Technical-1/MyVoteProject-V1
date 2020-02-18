@@ -53,3 +53,15 @@ function toggleButton(stanceInfo, stanceBtn) {
     y.style.display = "inline";
   }
 }
+
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://charity.gofundme.com/o/en/campaign/myvote2020');
+xhr.setRequestHeader("Content-Security-Policy", "frame-ancestors 'self'");
+xhr.onreadystatechange= function() {
+    if (this.readyState==4){
+      var iframe = document.getElementById('goFundMe');
+      iframe.srcdoc = this.responseText;
+      iframe.src = "data:text/html;charset=utf-8," + escape(this.responseText);
+      document.body.appendChild(iframe);
+    }
+};
