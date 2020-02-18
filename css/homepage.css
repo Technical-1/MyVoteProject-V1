@@ -23,7 +23,6 @@ html,body{
 
 .titleBox {
     height: 900px;
-    background-image: url('./votingPeople.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom: 2px solid black;
