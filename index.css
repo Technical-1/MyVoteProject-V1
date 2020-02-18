@@ -131,6 +131,30 @@ html,body{
   background-color:white;
   word-wrap: break-word;
 }
+#flagsStance{
+  text-align: center;
+  font-size: 1.5em;
+  width: 500px;
+  top:3200px;
+  height: auto;
+  position:absolute;
+  z-index: 100;
+  border: 5px solid black;
+  background-color:white;
+  word-wrap: break-word;
+}
+#immunityStance{
+  text-align: center;
+  font-size: 1.5em;
+  width: 500px;
+  top:4900px;
+  height: auto;
+  position:absolute;
+  z-index: 100;
+  border: 5px solid black;
+  background-color:white;
+  word-wrap: break-word;
+}
 h1{
   text-align: center;
   font-size: 70px;
@@ -300,7 +324,7 @@ h5{
   -webkit-background-size: 84% auto;
   background-size: 84% auto;
 }
-#backgroundStanceBtn,#stanceOnBan{
+#backgroundStanceBtn,#stanceOnBan,#stanceOnFlags, #stanceOnImmunity{
   z-index:99;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -328,14 +352,14 @@ h5{
   -webkit-background-size: 84% auto;
   background-size: 84% auto;
 }
-#SeeMore, #SeeMore2, #SeeMore3, #SeeMore4, #SeeMore5, #SeeMore6, #SeeMore7, #SeeMore8, #SeeMore9, #SeeMore10, #SeeMore11, #SeeMore12, #SeeMore13, #SeeMore14, #submitbtn{
+#SeeMore, #SeeMore2, #SeeMore3, #SeeMore4, #SeeMore5, #SeeMore6, #SeeMore7, #SeeMore8, #SeeMore9, #SeeMore10, #SeeMore11, #SeeMore12, #SeeMore13, #SeeMore14, #SeeMore15, #SeeMore16, #SeeMore17, #SeeMore18, #SeeMore19, #SeeMore20, #SeeMore21, #SeeMore22, #submitbtn{
   background-color:#104E8B;
   width: auto;
   height: auto;
   font-size: 1em;
   color:white;
 }
-#more, #more2, #more3, #more4, #more5, #more6, #more7, #more8, #more9, #more10, #more11, #more12, #more13, #more14 {
+#more, #more2, #more3, #more4, #more5, #more6, #more7, #more8, #more9, #more10, #more11, #more12, #more13, #more14, #more15, #more16, #more17, #more18, #more19, #more20, #more21, #more22 {
   display: none;
 }
 

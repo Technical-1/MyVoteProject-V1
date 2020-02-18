@@ -67,3 +67,25 @@ function toggleBan() {
     y.style.display = "inline";
   }
 }
+function toggleFlags() {
+  var x = document.getElementById("flagsStance");
+  var y = document.getElementById("stanceOnFlags");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "inline";
+  }
+}
+function toggleImmunity() {
+  var x = document.getElementById("immunityStance");
+  var y = document.getElementById("stanceOnImmunity");
+  if (x.style.display === "none") {
+    x.style.display = "inline-block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "inline";
+  }
+}
