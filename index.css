@@ -147,7 +147,7 @@ html,body{
   text-align: center;
   font-size: 1.5em;
   width: 500px;
-  top:4900px;
+  top:4600px;
   height: auto;
   position:absolute;
   z-index: 100;
@@ -359,7 +359,7 @@ h5{
   font-size: 1em;
   color:white;
 }
-#more, #more2, #more3, #more4, #more5, #more6, #more7, #more8, #more9, #more10, #more11, #more12, #more13, #more14, #more15, #more16, #more17, #more18, #more19, #more20, #more21, #more22 {
+#more, #more2, #more3, #more4, #more5, #more6, #more7, #more8, #more9, #more10, #more11, #more12, #more13, #more14, #more15, #more16, #more17, #more18, #more19, #more20, #more21, #more22, #more23 {
   display: none;
 }
 
