@@ -54,6 +54,6 @@ function toggleButton(stanceInfo, stanceBtn) {
   }
 }
 function openCharity(){
-  var win = window.open("https://charity.gofundme.com/o/en/campaign/myvote2020", '_blank');
+  var win = window.open("https://charity.gofundme.com/o/en/campaign/myvoteproject2020", '_blank');
   win.focus();
 }
