@@ -53,7 +53,23 @@ function toggleButton(stanceInfo, stanceBtn) {
     y.style.display = "inline";
   }
 }
+
 function openCharity(){
   var win = window.open("https://charity.gofundme.com/o/en/campaign/myvoteproject2020", '_blank');
   win.focus();
+}
+
+function openVolunteer(){
+  var win = window.open("https://docs.google.com/forms/d/e/1FAIpQLSdVf76uJ8DJf3q3Qco4BC_ED1mfoCQDMuZr-q5K55g7RD5y_g/viewform", '_blank');
+  win.focus();
+}
+
+function openExperience(){
+  var win = window.open("https://docs.google.com/forms/d/e/1FAIpQLSd-NzJJ76k5WhcnSyqYdq52cieuyNDSyUwpzqxcuw0iFQDHKg/viewform", '_blank');
+  win.focus();
+}
+
+function closePopup(){
+  var x = document.getElementById("hover_bkgr_fricc");
+  x.style.display = "none";
 }
