@@ -179,7 +179,13 @@ footer {
     border: 3px solid #999;
 }
 #tempText{
-  font-size: 4em;
+  font-size: 2.3em;
+  width: auto;
+  height: auto;
+  margin-top: 5;
+}
+#googleDocLink{
+  font-size: 2.5em;
   width: auto;
   height: auto;
   margin-top: 5;
