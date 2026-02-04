@@ -1,11 +1,81 @@
-# myvoteproject.com/
+# MyVote Project (V1)
 
-I was asked by my friend to be a part of this project and write their first website while they were trying to start their company.
+A nonpartisan voter education platform built for the 2020 U.S. Presidential Election.
 
-MyVoteProject (MVP) is a national, nonpartisan organization revolutionizing the way people vote and think about politics. They curate information on candidates in an easy-to-understand format and present policy issues that are critical to voters. They empower people to elect candidates who will best represent their constituents at all levels of government from school board member to president!
+I was asked by a friend to build the first website for MyVote Project while they were starting the organization. MyVote Project (MVP) is a national, nonpartisan organization that curates information on candidates in an easy-to-understand format and presents policy issues critical to voters. This was my first full website built from scratch.
 
-This was the first time I wrote a full site from scratch and ended up having to scrap all of the code when they partenered with a independent contractor. I stayed with the project for a year after, working with the code advisor and the contractor. The current site is the result from that work and further development.
+## Features
 
-# Information
-All information included on this intial version was provided by David, Gita, and Sari. (my bosses at the time/founders of the project)
-I am not affiliated or responsible for any of the text included. I simply copy and pasted the research they provided me and created all other details of the site to their very specific specifications.
+- **Candidate Profiles** - Detailed overviews of 2020 presidential candidates including their backgrounds, signature issues, and policy stances
+- **Policy Breakdowns** - In-depth analysis of key policy issues (gun safety, background checks, assault weapons, red flag laws) with pros/cons from multiple perspectives
+- **Candidate Stance Comparisons** - Visual comparison of where each candidate stands on specific policy issues
+- **Interactive "Share Your Voice"** - Survey functionality allowing users to express their views on policy issues
+- **Searchable Navigation** - Dropdown menus with search functionality to quickly find candidates or policies
+
+## Tech Stack
+
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript
+- **Styling**: Custom CSS with responsive design
+- **Hosting**: GitHub Pages (previously myvoteproject.com)
+
+## Getting Started
+
+### Prerequisites
+
+- Any modern web browser
+- No build tools required - this is a static site
+
+### Installation
+
+```bash
+git clone https://github.com/Technical-1/MyVoteProject-V1.git
+cd MyVoteProject-V1
+```
+
+### Usage
+
+Open `index.html` in your browser, or serve locally:
+
+```bash
+# Using Python
+python -m http.server 8000
+
+# Using Node.js
+npx serve
+```
+
+Then visit `http://localhost:8000`
+
+## Development
+
+This is a static website with no build process:
+
+```bash
+# No installation needed - just edit the files directly
+
+# To preview changes, open index.html in a browser
+open index.html
+```
+
+## Project Structure
+
+```
+MyVoteProject-V1/
+├── index.html           # Homepage with organization info
+├── candidates.html      # Presidential candidate profiles
+├── policies.html        # Policy issue breakdowns
+├── css/
+│   ├── homepage.css     # Styles for homepage
+│   └── index.css        # Styles for candidates/policies pages
+├── js/
+│   └── index.js         # Interactive functionality
+└── Images/              # Candidate photos and assets
+```
+
+## Historical Context
+
+This was Version 1 of MyVote Project, built for the 2020 election cycle. The original code was eventually replaced when the organization partnered with an independent contractor. I stayed with the project for a year after, working with a code advisor and contractor on further development.
+
+## Author
+
+Jacob Kanfer - [GitHub](https://github.com/Technical-1)
